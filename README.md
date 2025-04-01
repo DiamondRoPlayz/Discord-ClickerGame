@@ -16,7 +16,7 @@ let rc;webpackChunkdiscord_app.push([[Symbol()],{},r=>rc=r.c]);
 let r=Object.values(rc).find(x=>x?.exports?.tn?.post).exports;
 let e=Object.values(rc).map(x=>x?.exports?.default).find(v=>v?.getCurrentUser).getCurrentUser();
 r.tn.post({
-    url:' /holidays/redeem-prize',
+    url: '/holidays/redeem-prize',
     body: {
         prize_hash: e.id.split("").reduce( (e, t) => e + Number.parseInt(t), 0)
     },
